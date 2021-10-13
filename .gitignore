@@ -1,0 +1,16 @@
+# build files
+build 
+
+# doc build files
+docs/latex
+docs/xml
+docs/_*
+
+# vscode temporary files
+.pio
+.vscode
+
+# misc files
+*.old
+openocd.log
+
