@@ -1,0 +1,5 @@
+<map id="I2C_Handle_t" name="I2C_Handle_t">
+<area shape="rect" id="node1" title="Structure for I2C peripheral." alt="" coords="69,95,177,121"/>
+<area shape="rect" id="node2" href="$structI2C__Config__t.html" title="Configuration structure for I2C peripheral." alt="" coords="5,5,109,32"/>
+<area shape="rect" id="node3" href="$structtypedef__I2C__t.html" title="Memory arrangement of the I2C peripherals." alt="" coords="133,5,245,32"/>
+</map>

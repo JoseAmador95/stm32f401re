@@ -1,0 +1,7 @@
+<map id="Memory Map" name="Memory Map">
+<area shape="rect" id="node1" href="$group__BUSES.html" title="Peripherals under the APB &amp; AHB buses." alt="" coords="176,5,237,31"/>
+<area shape="rect" id="node2" title="Memory map of the STM32F401RE." alt="" coords="5,80,113,105"/>
+<area shape="rect" id="node3" href="$group__RAM.html" title="96 kB SRAM" alt="" coords="181,55,233,80"/>
+<area shape="rect" id="node4" href="$group__CORTEX__M4.html" title="ARM Cortex&#45;M4 related objects." alt="" coords="161,104,252,129"/>
+<area shape="rect" id="node5" href="$group__FLASH.html" title="512kB Flash memory" alt="" coords="174,153,239,179"/>
+</map>

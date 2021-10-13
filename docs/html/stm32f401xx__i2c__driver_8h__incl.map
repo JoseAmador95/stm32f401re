@@ -1,0 +1,10 @@
+<map id="stm32f401xx_i2c_driver.h" name="stm32f401xx_i2c_driver.h">
+<area shape="rect" id="node1" title=" " alt="" coords="140,5,331,32"/>
+<area shape="rect" id="node2" href="$STM32F401RE_8h.html" title="This file contains the base definitions for the STM32F401RE microcontroller." alt="" coords="172,80,299,107"/>
+<area shape="rect" id="node8" title=" " alt="" coords="324,80,406,107"/>
+<area shape="rect" id="node3" title=" " alt="" coords="120,237,191,263"/>
+<area shape="rect" id="node4" title=" " alt="" coords="25,155,100,181"/>
+<area shape="rect" id="node5" href="$STM32F401RE__GPIO__DRIVER_8h.html" title=" " alt="" coords="124,155,347,181"/>
+<area shape="rect" id="node6" href="$STM32F401RE__SPI__DRIVER_8h.html" title=" " alt="" coords="370,155,581,181"/>
+<area shape="rect" id="node7" href="$STM32F401RE__REGISTER__BITS_8h.html" title=" " alt="" coords="382,229,569,271"/>
+</map>

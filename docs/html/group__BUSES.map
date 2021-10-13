@@ -1,0 +1,8 @@
+<map id="Buses" name="Buses">
+<area shape="rect" id="node1" title="Peripherals under the APB &amp; AHB buses." alt="" coords="161,109,223,134"/>
+<area shape="rect" id="node2" href="$group__AHB1.html" title="Peripherals in AHB1." alt="" coords="271,5,479,45"/>
+<area shape="rect" id="node3" href="$group__AHB2.html" title="Peripherals in AHB2." alt="" coords="271,69,479,109"/>
+<area shape="rect" id="node4" href="$group__APB1.html" title="Peripherals in APB1." alt="" coords="297,133,453,173"/>
+<area shape="rect" id="node5" href="$group__APB2.html" title="Peripherals in APB2." alt="" coords="297,197,453,237"/>
+<area shape="rect" id="node6" href="$group__Memory__Map.html" title="Memory map of the STM32F401RE." alt="" coords="5,109,113,134"/>
+</map>

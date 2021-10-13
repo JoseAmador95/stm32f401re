@@ -1,0 +1,4 @@
+<map id="STIR" name="STIR">
+<area shape="rect" id="node1" title="Software Triggered Interrupt Register." alt="" coords="227,13,277,38"/>
+<area shape="rect" id="node2" href="$group__NVIC.html" title="ARM Cortex&#45;M4 Processor NVIC." alt="" coords="5,5,179,45"/>
+</map>

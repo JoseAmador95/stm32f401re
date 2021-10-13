@@ -1,0 +1,4 @@
+<map id="FLASH" name="FLASH">
+<area shape="rect" id="node1" href="$group__Memory__Map.html" title="Memory map of the STM32F401RE." alt="" coords="5,5,113,31"/>
+<area shape="rect" id="node2" title="512kB Flash memory" alt="" coords="161,5,227,31"/>
+</map>
