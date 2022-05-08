@@ -2,15 +2,28 @@
 build 
 
 # doc build files
-docs/latex
-docs/xml
-docs/_*
+docs/*
+
+# toolchain
+toolchain/gcc*
 
 # vscode temporary files
 .pio
 .vscode
+.vscode-server
 
 # misc files
 *.old
 openocd.log
+.config
 
+# vim config
+.vimrc
+
+# clang-format
+.cache
+.clang-format
+*.json
+
+# cmake
+CMakeFiles
