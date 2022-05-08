@@ -1,9 +1,9 @@
 #ifndef __STM32F401RE_SPI_DRIVER_H_
 #define __STM32F401RE_SPI_DRIVER_H_
 
-#include "STM32F401RE.h"
+#include "stm32f401re.h"
 #include <stdint.h>
-#include "STM32F401RE_REGISTER_BITS.h"
+#include "stm32f401-registers.h"
 
 #define SPI_MODE_CPOL_LOW 0
 #define SPI_MODE_CPOL_HIGH 1

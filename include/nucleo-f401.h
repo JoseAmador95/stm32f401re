@@ -1,7 +1,7 @@
 #ifndef __NUCLEO_F401_H_
 #define __NUCLEO_F401_H_
 
-#include "STM32F401RE.h"
+#include "stm32f401re.h"
 
 #define NUCLEO_PIN_D00_GPIO 3
 #define NUCLEO_PIN_D00_PORT GPIOA
@@ -72,10 +72,6 @@
 #define NUCLEO_UART_RX_GPIO NUCLEO_PIN_D00_GPIO
 #define NUCLEO_UART_RX_PORT NUCLEO_PIN_D00_PORT
 
-GPIO_Handle_t NUCLEO_BUTTON, NUCLEO_LED;
-SPI_Handle_t NUCLEO_SPI;
-I2C_Handle_t NUCLEO_I2C;
-
 void NUCLEO_Button_Setup(void);
 uint8_t NUCLEO_Button_Read(void);
 void NUCLEO_LED_Setup(void);
@@ -88,13 +84,20 @@ void NUCLEO_IRQHandling(void);
 
 void NUCLEO_SPI_Init(void);
 void NUCLEO_SPI_Set_Status(uint8_t status);
-void NUCLEO_SPI_Transfer(uint8_t* in, uint8_t* out, uint8_t length);
-void NUCLEO_SPI_Send(uint8_t* data, uint8_t length);
-void NUCLEO_SPI_Receive(uint8_t* data, uint8_t length);
+void NUCLEO_SPI_Transfer(uint8_t *in, uint8_t *out, uint8_t length);
+void NUCLEO_SPI_Send(uint8_t *data, uint8_t length);
+void NUCLEO_SPI_Receive(uint8_t *data, uint8_t length);
 
-void NUCLEO_I2C_Init(uint16_t address, uint32_t speed, uint8_t enable_pullup);
+void NUCLEO_I2C_Init(uint16_t address, uint32_t scl_freq,
+                     uint8_t enable_pullup);
 void NUCLEO_I2C_Set_Status(uint8_t status);
-void NUCLEO_I2C_Master_Send(uint8_t* buffer, uint16_t length, uint16_t slave_address);
-
+void NUCLEO_I2C_ACK_Status(uint8_t status);
+uint8_t NUCLEO_I2C_Master_Send(uint8_t *buffer, uint16_t length,
+                               uint16_t slave_address, uint8_t release_bus);
+uint8_t NUCLEO_I2C_Master_Receive(uint8_t *buffer, uint16_t length,
+                                  uint16_t slave_address, uint8_t release_bus);
+void NUCLEO_I2C_EV_Handler(void);
+void NUCLEO_I2C_ERR_Handler(void);
+void NUCLEO_I2C_Close(uint8_t stop_transfer);
 
 #endif

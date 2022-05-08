@@ -1,7 +1,7 @@
 #ifndef __STM32F401RE_GPIO_DRIVER_H_
 #define __STM32F401RE_GPIO_DRIVER_H_
 
-#include "STM32F401RE.h"
+#include "stm32f401re.h"
 
 /**
  * @typedef @struct GPIO_PinConfig_t
