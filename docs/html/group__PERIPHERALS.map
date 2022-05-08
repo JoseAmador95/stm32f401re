@@ -1,4 +1,0 @@
-<map id="Peripherals" name="Peripherals">
-<area shape="rect" id="node1" title="Peripherals under the APB &amp; AHB buses." alt="" coords="161,5,256,31"/>
-<area shape="rect" id="node2" href="$group__Memory__Map.html" title="Memory map of the STM32F401RE." alt="" coords="5,5,113,31"/>
-</map>

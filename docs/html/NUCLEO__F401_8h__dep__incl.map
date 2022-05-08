@@ -1,9 +1,0 @@
-<map id="NUCLEO_F401.h" name="NUCLEO_F401.h">
-<area shape="rect" id="node1" title=" " alt="" coords="361,5,487,32"/>
-<area shape="rect" id="node2" href="$main_8c.html" title=" " alt="" coords="5,80,72,107"/>
-<area shape="rect" id="node3" href="$NUCLEO__F401_8c.html" title=" " alt="" coords="97,80,223,107"/>
-<area shape="rect" id="node4" href="$EX1__TOGGLE__BLINKY_8c.html" title=" " alt="" coords="248,80,419,107"/>
-<area shape="rect" id="node5" href="$EX2__INTERRUPTS_8c.html" title=" " alt="" coords="443,80,589,107"/>
-<area shape="rect" id="node6" href="$EX3__SPI__SEND_8c.html" title=" " alt="" coords="613,80,741,107"/>
-<area shape="rect" id="node7" href="$EX4__SPI__TX__RX_8c.html" title=" " alt="" coords="766,80,901,107"/>
-</map>

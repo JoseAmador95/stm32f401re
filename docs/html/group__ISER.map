@@ -1,4 +1,0 @@
-<map id="ISER" name="ISER">
-<area shape="rect" id="node1" title="Interrupt Set&#45;Enable Register group." alt="" coords="227,13,277,38"/>
-<area shape="rect" id="node2" href="$group__NVIC.html" title="ARM Cortex&#45;M4 Processor NVIC." alt="" coords="5,5,179,45"/>
-</map>
