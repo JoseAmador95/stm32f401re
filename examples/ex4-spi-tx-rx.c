@@ -9,7 +9,7 @@ expected.
 Make sure to add the global #define SPI_API_BLOCKING
 */
 
-#include "NUCLEO_F401.h"
+#include "nucleo-f401.h"
 #include "string.h"
 
 void command_led_ctrl();

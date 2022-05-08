@@ -14,7 +14,7 @@
  * |  D08   |   D08   |
  */
 
-#include "NUCLEO_F401.h"
+#include "nucleo-f401.h"
 #include <stdio.h>
 
 #define MAXLEN 500		 // Max bytes per message

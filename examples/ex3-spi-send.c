@@ -1,4 +1,4 @@
-#include "NUCLEO_F401.h"
+#include "nucleo-f401.h"
 
 // Alt mode 6
 // PB9 	NSS
